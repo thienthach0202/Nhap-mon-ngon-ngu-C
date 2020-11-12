@@ -9,7 +9,7 @@ int main(void) {
   printf("Bien num co gia tri: %d\n",num); 
   // khai bao bien x kieu char
   char c;
-  // khoi tao gia tri cho bien 
+  // khai tao gia tri cho bien 
   c = 'a';
   // hien thi bien c ra man hinh 
   printf("Bien c co gia tri: %d", c);
