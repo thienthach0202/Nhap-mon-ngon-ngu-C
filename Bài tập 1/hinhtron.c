@@ -11,6 +11,7 @@ int main(void) {
   CV = 2 * R * PI;
   // Tinh dien tich hinh tron DT = R * R * PI
   DT = R * R * PI;
+  printf("R: %1.5f, R);
   printf("CV: %0.1f", CV);
   printf("DT: %0.1f", DT);
   return 0;
