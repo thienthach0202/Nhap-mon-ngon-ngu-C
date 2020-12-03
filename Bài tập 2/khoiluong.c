@@ -7,15 +7,15 @@ int main(void)
 	printf("Nhap khoi luong m : ");
 	//Xuat nhap khoi luong m man hinh 
 	scanf("%d", &m);
-  printf("kg = %dg\n", m * 1000);
+        printf("kg = %dg\n", m * 1000);
 	//Hien thi nhap khoi luong g ra man hinh
 	printf("Nhap khoi luong g : ");
 	//Xuat nhap khoi luong g ra man hinh
 	scanf("%d", &g);
-  printf("g = %dkg\n", g / 1000);
-	//Hien thi tieu de Kg v‡ gia tri
+        printf("g = %dkg\n", g / 1000);
+	//Hien thi tieu de Kg v√† gia tri
 	printf("tieu de Kg\t    tieu de G\n");
-  printf(" %d", m);
-  printf("           =  %d", g);
+        printf(" %d", m);
+        printf("           =  %d", g);
     return 0;
 }
