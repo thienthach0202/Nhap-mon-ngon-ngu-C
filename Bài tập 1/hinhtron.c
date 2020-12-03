@@ -11,12 +11,11 @@ int main(void) {
   CV = 2 * R * PI;
   // Tinh dien tich hinh tron DT = R * R * PI
   DT = R * R * PI;
-  // Hien thi R, CV, DT theo hang ngang
-  // Hien thi R theo hang doc
-  printf("R: %0.1f\n", R);
-  // Hien thi CV theo hang doc
-  printf("CV: %0.1f\n", CV);
-  // Hien thi DT theo hang doc       
-  printf("DT: %0.1f", DT);
+  // Hien thi CV va DT ra man hinh
+  printf("CV\t    DT\n");
+  // Hien thi ket qua CV theo hang doc
+  printf("%0.1f", CV);
+  // Hien thi ket qua DT theo hang doc
+  printf("    %0.1f", DT);
   return 0;
 }
