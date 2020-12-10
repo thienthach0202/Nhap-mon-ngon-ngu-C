@@ -11,7 +11,7 @@ int main() {
       printf("%d la so duong",a);
   //hien thi a la so duong ra man hinh    
   } else if(a == 0) {
-      printf("%d bang khong",a);
+      printf("a = 0");
   // hien thi a bang khong ra man hinh    
   }else if(a < 0) {
       printf("%d la so am",a);
