@@ -12,8 +12,8 @@ int main() {
   } else if(n % 2 != 0) {
       printf("%d la so le\n",n);
   // hien thi n la so le ra man hinh    
-  }else if("n == 0") {
-      printf(n = 0);
+  }else if(n == 0) {
+      printf("n = 0");
   // hien thi n bang 0 ra man hinh    
   }    
   // hien thi noi dung
