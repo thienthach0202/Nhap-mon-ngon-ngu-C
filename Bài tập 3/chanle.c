@@ -2,9 +2,8 @@
 
 int main() {
   int n;
-  // hien thi n ra man hinh 
-  printf("nhap n = ");
   // xuat nhap n ra man hinh
+  printf("nhap n = ");
   scanf("%d", &n);
   // kiem tra n la chan, le, 0
   if(n % 2 == 0){
