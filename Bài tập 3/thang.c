@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 int main(void) {
-  int thang;
+  char thang;
     printf("nhap thang:");
-    scanf("%d", &thang);
+    scanf("%c", &thang);
     switch(thang){
       case 1:
-        printf("30 ngay");
+        printf("31 ngay");
       case 2:
-        printf("28 ngay")
+        printf("28 ngay");
+      case 4:
+        printf("30 ngay");  
     default:
       printf("nhap thang");
     }    
