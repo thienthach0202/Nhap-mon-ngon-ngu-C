@@ -10,7 +10,12 @@ int main() {
   printf("nhap soluong duoc mua la:");
   scanf("%d", &soluong);
   thanhtien = dongia * soluong; 
-  // hien thi thanhtien ra man hinh
+  if (soluong >= 5){
+  printf("xuat thanhtien = %d\n", thanhtien *75/100);
+  // Nếu số lượng mua từ 5 trở lên thì sẽ giảm giá 25%
+}else{
   printf("xuat thanhtien = %d\n", thanhtien);
+  // Ngược lại số lượng mua bé hơn 5 thì sẽ không giảm giá
+}
   return 0;
 }
