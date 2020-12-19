@@ -11,7 +11,7 @@ int main(void) {
     case '-':
       printf("a - b = ");break;
     default:
-      printf("vui long nhap phep tinh");
+      printf("loi neu phep tinh sai");
     }    
   return 0;
 }
