@@ -2,12 +2,11 @@
 
 int main(void) {
   // khai tao bien 
-  int count = 1;
-  while (count <= 10)
+  int count;
+  for(count = 1; count <= 10; ++count)
   { 
   // Hien thi xin chao ra man hinh 
-    printf("Xin chao %d\n", count);
-    count++;  
+    printf("Xin chao\n");  
   }
   // Hien thi vong lap thanh cong ra man hinh 
   printf("Vong lap thanh cong");
