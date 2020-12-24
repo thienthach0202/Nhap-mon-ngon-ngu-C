@@ -1,3 +1,4 @@
+ngày 24/12/2020
 count++ là biến để gia tăng đơn vị 
 ++a là tăng a lên 1, sau đó sử dụng giá trị mới của a
 ++a = (a = a+1)
