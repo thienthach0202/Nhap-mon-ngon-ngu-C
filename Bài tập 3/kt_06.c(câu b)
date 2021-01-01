@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+  // Khai bao bien h, a, b
+	int h, a, b;
+  // Hien thi b. Tam giac rong ra man hinh
+  printf("b. Tam giac rong:\n");
+  // Hien thi nhap h ra man hinh
+	printf("nhap h: "); 
+	scanf("%d", &h);
+  // h lon hon 0
+  if(h>0)
+    // Vong lap a 
+		for(a = 0; a < h-1; a++) {
+      // Vong lap b truong hop *
+			for(b = 0; b < 2*h-1; b++) {
+        // Điều kiện: b == 3 là true
+        // b == (h = 4) - (a = 0) - 1 = 3 là true
+        // b == (h = 4) + (a = 0) - 1 = 3 là true 
+        if(b == h - a - 1 || b == h + a - 1)
+          // Hien thi dau sao ra man hinh
+          printf(" * ");
+        else 
+          // hien thi khoang trang
+          printf("   ");
+			}
+			printf("\n");
+		}
+    // Vong lap a truong hop **
+	  for(a = 0; a < 2*h-1; a++)
+      // Hien thi dau sao ra man hinh
+      printf(" * ");
+	return 0;
+}
