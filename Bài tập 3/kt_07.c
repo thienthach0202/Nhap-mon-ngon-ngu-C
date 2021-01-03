@@ -23,5 +23,6 @@ int main(void) {
     printf("Yeu cau nhap 3 so duong!!!\n");
   }
   // Hien thi noi dung
+  printf("\n\n\nH Í    A N H    E M");
   return 0;
 }
