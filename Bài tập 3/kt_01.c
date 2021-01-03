@@ -6,13 +6,15 @@ int main(void) {
   // Khai bao bien a, b
   int a, b;
   // Vong lap 
-  for(a = 1; a <= 10; a++){
+  for(a = 2; a <= 10; a++){
   // Hien thi X ra man hinh
   printf("\n--------X%d--------\n", a);
-  for(b = 0; b < 10; b++){
+  // Vong lap
+  for(b = 1; b < 10; b++){
   // Hien thi ket qua bang cuu chuong ra man hinh
   printf("\t%d x %d = %d\n", a, b, a*b);
   }
   }
+  printf("\n\n E N D       G A M E ");
   return 0;
 }
