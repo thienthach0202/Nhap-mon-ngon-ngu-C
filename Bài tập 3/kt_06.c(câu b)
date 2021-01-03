@@ -30,5 +30,6 @@ int main() {
      for(a = 0; a < 2*h-1; a++)
      // Hien thi dau sao ra man hinh
      printf(" * ");
+     printf("\n\n\nH A P P Y  N E W  Y E A R   2 0 2 1  \n");
 return 0;
 }
