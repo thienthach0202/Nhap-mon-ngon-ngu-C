@@ -2,53 +2,62 @@
 int main()
 
 {
-	//Khai bao bien
+	//Khai bao bien n
 int n;
-	//Hien thi ra ban hinh
-	printf("Nhap vao so \n");
+	//Hien thi Nhap n ra ban hinh
+	printf("Nhap n : \n");
 	//Nhap so tu ban phim
-	scanf("%d",&n);
-	//Nhap 1 de ra one
+  scanf("%d", &n);
+
 if (n <= 1 )
 {
-	//Hien thi ra man hinh
-	printf("One");
+	//Hien thi One ra man hinh
+	printf("One\n");
 }	
 else if (n <= 2)
 {	
-	printf("Two");
+  //Hien thi Two ra man hinh
+	printf("Two\n");
 }
 else if (n <= 3)
 {
-	printf("Three");
+  //Hien thi Three ra man hinh
+	printf("Three\n");
 }
 else if (n <= 4)
 {
-	printf("Four");
+  //Hien thi Four ra man hinh
+	printf("Four\n");
 }
 else if (n <= 5)
 {
-	printf("Five");
+  //Hien thi Five ra man hinh
+	printf("Five\n");
 }
 else if (n <= 6)
 {
-	printf("Six");
+  //Hien thi Six ra man hinh
+	printf("Six\n");
 }
 else if (n <= 7)
 {
-	printf("Seven");
+  //Hien thi Seven ra man hinh
+	printf("Seven\n");
 }
 else if (n <= 8)
 {
-	printf("Eight");
+  //Hien thi Eight ra man hinh
+	printf("Eight\n");
 }
 else if (n <= 9)
 {
-	printf("Nine");
+  //Hien thi Nine ra man hinh
+	printf("Nine\n");
 }
-else if (n > 9)
+else  
 {
-	printf("Greater than 9");
+  //Hien thi Greater than 9 ra man hinh
+	printf("Greater than 9\n");
 }
 return 0;
 }
