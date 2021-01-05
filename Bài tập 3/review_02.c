@@ -7,12 +7,9 @@ int main()
     int a, b, i;
     //Hien thi ket qua ra man hinh
     printf("Nhap so\n");
-    //Nhap so lieu tu ban phim
-    scanf("%d", &a);
-    //Hien thi ket qua ra man hinh
-    printf("Nhap so\n");
-    //Nhap so lieu tu ban phim
-    scanf("%d", &b);
+    scanf("%d\n%d", &a, &b);
+    
+  
 	//Vong lap for
 for(i = a; i <= b; i++)
 
@@ -74,12 +71,16 @@ else{
 }
 else
 {
+// i chia het cho 2
 if(i%2==0){
-     printf("even\n");
+    // Hien thi even ra man hinh
+    printf("even\n");
 }
+// nguoc lai 
 else
 {
-     printf("odd\n");
+    // Hien thi odd ra man hinh
+    printf("odd\n");
 }
 }
 
