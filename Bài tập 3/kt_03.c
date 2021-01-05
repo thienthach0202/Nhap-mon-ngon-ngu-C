@@ -13,7 +13,6 @@ int main(){
   printf("%5d", i);
  }
 }
-// Hien thi noi dung
-printf("\n\nM Ề   T A   N Ì   X A   N À   Ê  Ề  Ế  Ề  Ế  Ê");
+
 return 0;
 }
