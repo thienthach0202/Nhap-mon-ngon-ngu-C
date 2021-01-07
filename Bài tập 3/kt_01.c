@@ -1,20 +1,17 @@
 #include <stdio.h>
 
-int main(void) {
-  // Hien thi CHUONG TRINH IN BANG CUU CHUONG ra man hinh
-  printf("\tCHUONG TRINH IN BANG CUU CHUONG");
-  // Khai bao bien a, b
-  int a, b;
-  // Vong lap 
-  for(a = 2; a < 10; a++){
-  // Hien thi bang nhan ra man hinh
-  printf("\n\tbang nhan %d\n", a);
-  // Vong lap
-  for(b = 0; b <= 10; b++){
-  // Hien thi ket qua bang cuu chuong ra man hinh
-  printf("\n\t%d x %d = %d\n", a, b, a*b);
-  }
-  }
-  
+int main() 
+{
+  int a, b, c;
+  a = 2; b = 3; c = 4;
+  printf("\nBang 2\n");
+  for(int i = 1; i < 11; i++)
+  printf("\n%dx%d=%d\t",a ,i ,a * i);
+   printf("\nBang 3\n");
+  for(int i = 1; i < 11; i++)
+  printf("\n%dx%d=%d\t",b ,i ,b * i);
+   printf("\nBang 4\n");
+  for(int i = 1; i < 11; i++)
+  printf("\n%dx%d=%d\t",c ,i ,c * i);
   return 0;
 }
