@@ -2,17 +2,17 @@
 
 int main(void) {
   // Hien thi CHUONG TRINH IN BANG CUU CHUONG ra man hinh
-  printf("--------CHUONG TRINH IN BANG CUU CHUONG--------");
+  printf("\tCHUONG TRINH IN BANG CUU CHUONG");
   // Khai bao bien a, b
   int a, b;
   // Vong lap 
-  for(a = 2; a <= 10; a++){
+  for(a = 2; a < 10; a++){
   // Hien thi bang nhan ra man hinh
-  printf("\nbang nhan %d\n", a);
+  printf("\n\tbang nhan %d\n", a);
   // Vong lap
-  for(b = 1; b < 10; b++){
+  for(b = 0; b <= 10; b++){
   // Hien thi ket qua bang cuu chuong ra man hinh
-  printf("\t%d x %d = %d\n", a, b, a*b);
+  printf("\n\t%d x %d = %d\n", a, b, a*b);
   }
   }
   
