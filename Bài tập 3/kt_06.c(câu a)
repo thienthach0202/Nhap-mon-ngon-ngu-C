@@ -1,35 +1,26 @@
 #include <stdio.h>
 
-int main() {
-  // Khai bao bien h, i, j
-  int h, i, j;
-  // Hien thi a. Tam giac can dac ra man hinh
-  printf("a. Tam giac can dac:\n");
-  // Hien thi nhap h ra man hinh
-  printf("nhap h: ");
-  scanf("%d", &h);
-  // h lon hon 0
-  if(h > 0) {
-    // Vong lap for i lon 
-    for(i = 1; i <= h; i++) {
-    // Vong lap for j nho 
-    for(j = 1; j < 2 * h; j++) {
-        // Điều kiện:j <= 4 >= j là true
-        // Ta có (h=4)-(i=1)+1=4 là true
-        //       (h=4)+(i=1)-1=4 là true
-        if((j >= h - i + 1) && (j <= h + i - 1)){
-          // Hien thi dau sao ra man hinh 
-	  printf(" * ");
-        }else{
-          // Hien thi khoang trang ra man hinh
-	  printf("   ");
-	}
-        }
-    printf("\n");
-	}
-	} else {
-    // Dieu kien h phai lon hon 0
-    printf("Nhap h > 0!");
-	}
-   return 0;
+int main(void) {
+  //h = 4: 4 hang 
+  //hang 1: 1 ngoi sao 6 khoang trong
+  //hang 2: 3 ngoi sao 4 khoang trong
+  //hang 3: 5 ngoi sao 3 khoang trong
+  //hang 4: 7 ngoi sao 0 khoang trong
+  //h = 3: 3 hang 
+  //hang 1: 1 ngoi sao 4 khoang trong
+  //hang 2: 3 ngoi sao 2 khoang trong
+  //hang 3: 5 ngoi sao 0 khoang trong
+  //hang 4:
+  //h = 2: 2 hang 
+  //hang 1: 1 ngoi sao 2 khoang trong
+  //hang 2: 3 ngoi sao 0 khoang trong
+  //hang 3:
+  //hang 4:
+  //h = 1: 1 hang
+  //hang 1: 1 ngoi sao 0 khoang trong
+  //hang 2:
+  //hang 3:
+  //hang 4:
+
+  return 0;
 }
