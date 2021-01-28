@@ -1,6 +1,6 @@
 //khoi khai bao
 #include <stdio.h>
-//khoi dinh nghia ham tra ve nhap 
+//khoi dinh nghia ham khong tra ve nhap 
 void nhap(int a[], int n)
 {
     //su dung vong lap for
