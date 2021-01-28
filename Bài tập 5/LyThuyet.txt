@@ -25,3 +25,7 @@ Hàm có 2 loại:
 • Hàm do người dùng định nghĩa (User-defined functions): định nghĩa
 theo nhu cầu người dùng. Các phần tiếp theo sẽ tìm hiểu về cú pháp
 khai báo, định nghĩa và gọi hàm loại này.
+
+
+Kiểm Tra 1:
+kết quả là 3252, 
