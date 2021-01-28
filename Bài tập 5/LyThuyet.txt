@@ -1,1 +1,27 @@
+a)Khái niệm về biến (variable):
+Biến là đại lượng có giá trị thay đổi được trong chương trình. Mỗi biến phải thuộc về một kiểu dữ liệu nhất định và phải được khai báo trước. Việc khai báo có tác dụng báo cho máy dành sẵn các ô nhớ thích hợp trong bộ nhớ để sẵn sàng chứa dữ liệu.
+  Biến có thể khai báo theo cú pháp:
+    Kiểu_dữ_liệu Tên_biến;
+  Trong đó:Kiểu_dữ_liệu là kiểu dữ liệu;Tên_biến là tên biến;kết thúc khai báo biến là dấu chấm phẩy.
+  
+b)Biến toàn cục (global variable)
+• Được khai báo bên ngoài tất cả các hàm (kể cả main)
+• Thường được khai báo tại Khối Khai Báo
+• Có thể được sử dụng tại mọi vị trí trong chương trình như các hàm,khối lệnh lặp for hay while.
 
+  Khái niệm về Biến cục bộ(local variable):
+• Được khai báo bên trong các hàm hay khối lệnh (ví dụ biến đếm lệnh
+lặp for)
+• Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+• Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó.
+
+c)Khái niệm về hàm:
+Hàm là một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ nào cụ thể nào đó(tính tổng, hiển thị thông báo đến người dùng,...).
+*Phân loại hàm:
+Hàm có 2 loại:
+• Hàm thư viện chuẩn (Standard library functions):
+-Là các hàm được xây dựng sẵn (build-in functions) trong ngôn ngữ C như hàm scanf, printf, getchar,…scanf, printf, getchar,…
+-Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h như stdio.h, conio.h,…Các tập tin này phải được gộp vào chương trình thông qua chỉ định #include.
+• Hàm do người dùng định nghĩa (User-defined functions): định nghĩa
+theo nhu cầu người dùng. Các phần tiếp theo sẽ tìm hiểu về cú pháp
+khai báo, định nghĩa và gọi hàm loại này.
