@@ -1,9 +1,8 @@
 //Khoi khai bao
 #include<stdio.h>
+int n;
 void Nhap_pt_mang(int a[]);
-int n;
 void Hien_thi_pt_mang(int a[]);
-int n;
 void Hien_thi_tong_chan(int a[]);
 void Dem_chan_le_0(int a[]);
 
